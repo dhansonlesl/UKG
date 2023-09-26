@@ -5,6 +5,7 @@ Get-UKGReport.ps1
 Import this module into PS or into a PS script.
 
 When calling the main function:
+
 get-ukgreport -username [username] -password [password] -clientaccesskey [clientaccesskey] -useraccesskey [useraccesskey] -reportid [reportid]
 
 Overview of what this does once executed:
