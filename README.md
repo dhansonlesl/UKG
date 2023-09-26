@@ -4,6 +4,11 @@ Scripts and resources related to connecting to UltiPro's SOAP API via PowerShell
 Get-UKGReport.ps1
 Import this module into PS or into a PS script.
 
+Prerequisites for this to operate as desired:
+1. You need an account in UltiPro with sufficient rights to query and view BI Reports.
+2. You need to have a report created in UltiPro, and identify the Report ID.
+3. You need to have internet access from the machine executing this script.
+
 When calling the main function:
 
 get-ukgreport -username [username] -password [password] -clientaccesskey [clientaccesskey] -useraccesskey [useraccesskey] -reportid [reportid]
