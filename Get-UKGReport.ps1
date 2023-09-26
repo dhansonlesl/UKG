@@ -161,7 +161,7 @@ if ($help -eq $true) {
     $execute_response = Execute-UKGReport `
         -serviceid $logon_response.envelope.body.LogOnResponse.LogOnResult.serviceid `
         -token $logon_response.envelope.body.logonresponse.logonresult.token `
-        -clientaccesskey 'WJ532' -reportid $reportid `
+        -clientaccesskey $clientaccesskey -reportid $reportid `
         -instancekey $logon_response.envelope.body.logonresponse.logonresult.instancekey
     write-host "EXECUTE: $($execute_response.envelope.body.executereportresponse.executereportresult.Status)"
 
