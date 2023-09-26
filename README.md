@@ -17,6 +17,7 @@ Overview of what this does once executed:
 
 
 While the 'Get-UKGReport' function executes these in the correct order for you, you can also call the subordinate functions individually for testing purposes:
+
 Logon-UKGAPI -username [username] -password [password] -clientaccesskey [CAK] -useraccesskey [UAK]
 
 Execute-UKGReport -serviceid [ServiceId] -token [Token] -clientaccesskey [CAK] -reportid [ReportId] -instancekey [InstanceKey]
